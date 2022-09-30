@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PresepeGang.it</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:wght@900&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+
+    <div id="navbar">
+        <a id="logo"><img src="Foto/icona.jpg" width="80" height="80" alt="Icona."></a>
+        <div id="navbar-right">
+            <a class="active" href="home.html">HOME</a>
+            <a class="active" href="Presepi.html">PRESEPI</a>
+            <a class="active" href="ChiSiamo.html">CHI SIAMO</a>
+        </div>
+    </div>
+
+
+    <div3>
+        <img class="bigImmage" src="Foto/banner.jpg" alt="Icona." />
+    </div3>
+
+
+    <div4>
+        <h1 class="headerCenter" style="font-family: 'Playfair Display', serif;">COME FUNZIONA?</h1>
+        <p class="headerText" style="font-family: 'Oswald', sans-serif;">
+            Su PresepeGang, l’unico limite è la tua immaginazione!
+        </p>
+        <p class="headerText" style="font-family: 'Oswald', sans-serif;">
+            Possiamo aiutarti a creare il tuo presepe a piccoli sorsi, o a realizzarlo tutto d’un fiato se hai già una chiara idea nella tua testa. I nostri artigiani sono a tua disposizione!
+        </p>
+        <p class="headerText" style="font-family: 'Oswald', sans-serif;">
+            Inviaci il tuo progetto, risponderemo alle tue richieste il prima possibile con una quota.
+        </p>
+    </div4>
+
+    <div class="container" style="background-image: url(Foto/form.jpg);">
+        >
+        <form action="https://formsubmit.co/9007b7bb785b311bebf1340139474213" method="POST">
+            <input type="hidden" name="_next" value="http://localhost:57493/Conferma-Grazie.html">
+            <input type="hidden" name="_subject" value="Nuova Richiesta!">
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">NOME</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Il tuo nome..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">COGNOME</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Il tuo cognome..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">EMAIL</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="La tua email.." required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">PROGETTO</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Spiegaci il tuo progetto.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" id="submit" value="Invia">
+            </div>
+        </form>
+    </div>
+
+
+    <footer>
+        <p> Copyright ©2022 | All Rights Reserved | PresepeGang.IT </p>
+    </footer>
+
+</body>
+</html>
