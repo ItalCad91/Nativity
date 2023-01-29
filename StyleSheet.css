@@ -13,6 +13,7 @@
   }
 
 
+
 /*TOP BAR*/
 
 #navbar {
@@ -105,6 +106,7 @@
     top: -10px;
     line-height: 3;
     text-align: center;
+    color: aliceblue;
 }
 
 input[type=text], select, textarea {
@@ -113,6 +115,7 @@ input[type=text], select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    color: aliceblue;
 }
 
 label {
@@ -189,6 +192,8 @@ footer {
     background-color: #292929;
     color: white;
     font-size: 20px;
+    border-style: solid;
+    border-color: #000;
 }
 footer p 
 {
@@ -198,6 +203,40 @@ footer p
 
 
 /*PRODUCT PAGE*/
+
+.product-intro
+{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-style:solid;
+    border-color: #292929;
+}
+
+.Intro-Headline
+{
+    font-family:'Playfair Display', serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.Intro-Body
+{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.Product-List
+{
+    background-color:cadetblue;
+}
+
+.Sfondo
+{
+    background-color:#292929;
+}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
