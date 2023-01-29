@@ -1,4 +1,19 @@
-﻿/*TOP BAR*/
+﻿/*HOME PAGE FORM*/
+#submit
+{
+    float: right;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    size: inherit;
+    width: 3.5%;
+}
+#submit:hover {
+    background-color: #adadb3;
+  }
+
+
+/*TOP BAR*/
 
 #navbar {
     overflow: hidden;

@@ -46,7 +46,7 @@
 
     <div class="container" style="background-image: url(Foto/form.jpg);">
         >
-        <form action="https://formsubmit.co/9007b7bb785b311bebf1340139474213" method="POST">
+        <form id="form" action="https://formsubmit.co/9007b7bb785b311bebf1340139474213" method="POST">
             <input type="hidden" name="_next" value="http://localhost:57493/Conferma-Grazie.html">
             <input type="hidden" name="_subject" value="Nuova Richiesta!">
 
@@ -71,7 +71,7 @@
                     <label for="fname">EMAIL</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="email" name="email" placeholder="La tua email.." required>
+                    <input type="text" id="email" name="email" placeholder="La tua email..">
                 </div>
             </div>
             <div class="row">
@@ -83,8 +83,9 @@
                 </div>
             </div>
             <div class="row">
-                <input type="submit" id="submit" value="Invia">
+                <input onclick="Erase()" id="submit" value="Invia">
             </div>
+            
         </form>
     </div>
 
@@ -94,4 +95,8 @@
     </footer>
 
 </body>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="JavaScript.js"></script>
+  
 </html>
