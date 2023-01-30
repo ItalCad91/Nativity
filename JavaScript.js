@@ -39,6 +39,6 @@ function Erase() {
 
 //OPENS THE GRAZIE PAGE IN A NEW TAB
 
-document.getElementById("submit").addEventListener("click", function(){
+/*document.getElementById("submit").addEventListener("click", function(){
     window.open("grazie.html", "_blank");
-});
+});*/
