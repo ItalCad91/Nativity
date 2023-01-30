@@ -63,7 +63,8 @@
                     <label for="fname">NOME</label>
                 </div>
                 <div class="col-75">
-                    <input style="color:black; font-weight: bold;" type="text" id="fname" name="firstname" placeholder="Il tuo nome..">
+                    <input style="color:black; font-weight: bold;" type="text" id="fname" name="firstname" placeholder="Il tuo nome.." required oninvalid="this.setCustomValidity('Aggiungi il tuo nome')"
+                    oninput="this.setCustomValidity('')">
                 </div>
             </div>
             <div class="row">
@@ -71,7 +72,8 @@
                     <label for="lname">COGNOME</label>
                 </div>
                 <div class="col-75">
-                    <input style="color:black; font-weight: bold;" type="text" id="lname" name="lastname" placeholder="Il tuo cognome..">
+                    <input style="color:black; font-weight: bold;" type="text" id="lname" name="lastname" placeholder="Il tuo cognome.." required oninvalid="this.setCustomValidity('Aggiungi il tuo cognome')"
+                    oninput="this.setCustomValidity('')">
                 </div>
             </div>
             <div class="row">
@@ -79,19 +81,21 @@
                     <label for="fname">EMAIL</label>
                 </div>
                 <div class="col-75">
-                    <input style="color:black; width: 101.6%; height: 40px; font-weight: bold;" id="email" name="email" placeholder="La tua email..">
-                </div>
+                    <input style="color:black; width: 101.6%; height: 40px; font-weight: bold;" id="email" name="email" placeholder="La tua email.." required oninvalid="this.setCustomValidity('Aggiungi la tua mail')"
+                    oninput="this.setCustomValidity('')">
+                </div> 
             </div>
             <div class="row">
                 <div class="col-25">
                     <label for="subject">PROGETTO</label>
                 </div>
                 <div class="col-75">
-                    <textarea cols="30" rows="10" style="color:black; resize: none; font-weight: bold;" id="subject" name="subject" placeholder="Spiegaci il tuo progetto.."></textarea>
+                    <textarea cols="30" rows="10" style="color:black; resize: none; font-weight: bold;" id="subject" name="subject" placeholder="Spiegaci il tuo progetto.." required  oninvalid="this.setCustomValidity('Aggiungi il tuo messaggio')"
+                    oninput="this.setCustomValidity('')"></textarea>
                 </div>
             </div>
             <div class="row">
-                <button onclick="Erase();" type="submit" id="submit">Invia</button>
+                <button type="submit" id="submit">Invia</button> <!--onclick="Erase();"-->
             </div>
             
         </form>
