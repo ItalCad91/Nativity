@@ -1,6 +1,6 @@
 ﻿//SUBMIT FORM FUNCTION TO DISPLAY AN ALERT MESSAGE AND DELETE THE FIELDS WHEN THE INVIA BUTTON IS CLICKED
 
-function Erase() {
+/*function Erase() {
     var name = document.getElementById("fname").value;
     var lname = document.getElementById("lname").value;
     var email = document.getElementById("email").value;
@@ -34,7 +34,7 @@ function Erase() {
             button: "ok",
         });
     }
-}
+}*/
 
 
 //OPENS THE GRAZIE PAGE IN A NEW TAB
